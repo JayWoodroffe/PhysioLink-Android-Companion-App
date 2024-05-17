@@ -1,5 +1,5 @@
 package model
-
+import java.io.Serializable
 data class ExerciseModel (
     val id: Int,
     var name: String,
@@ -9,4 +9,4 @@ data class ExerciseModel (
     val clientId: String,
     val doctorId: String,
     val retired: Boolean
-)
+) : Serializable
