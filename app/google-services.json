@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "639364246440",
+    "project_id": "mypractice-49a02",
+    "storage_bucket": "mypractice-49a02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639364246440:android:9a8461f180db0a769e8b9d",
+        "android_client_info": {
+          "package_name": "com.example.mypractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639364246440-ff4un79amtmqfllumu1irkh42fl63kn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGHlhC9iENfEL5E65lWftAYsg0Jb0GkPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639364246440-ff4un79amtmqfllumu1irkh42fl63kn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639364246440:android:994d60e4d6b09b539e8b9d",
+        "android_client_info": {
+          "package_name": "hu.bme.aut.fna1a3.physiolink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639364246440-ff4un79amtmqfllumu1irkh42fl63kn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGHlhC9iENfEL5E65lWftAYsg0Jb0GkPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639364246440-ff4un79amtmqfllumu1irkh42fl63kn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
