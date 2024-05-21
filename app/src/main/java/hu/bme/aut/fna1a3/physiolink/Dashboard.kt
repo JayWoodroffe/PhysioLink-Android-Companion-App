@@ -50,7 +50,7 @@ class Dashboard : AppCompatActivity() {
                 true
             }
             R.id.nav_chat ->{
-                //TODO chat activity
+                startActivity(Intent(this, Chat::class.java))
                 true
             }
             R.id.nav_exercises ->{
