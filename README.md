@@ -62,5 +62,5 @@ PhysioLink is a companion Android application (used in companion to PhysioHub) d
 
 ## Documentation
 
-For more detailed information, you can refer to the [Project Documentation](./docs/Documentation.md).
+For more detailed information, you can refer to the [Project Documentation](./docs/Documentation.pdf).
 
