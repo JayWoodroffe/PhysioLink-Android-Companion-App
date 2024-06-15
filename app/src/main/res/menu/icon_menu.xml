@@ -13,7 +13,7 @@
         android:title="Exercises"
         android:icon="@drawable/ic_exercises"/>
 
-    <item android:id="@+id/nav_settings"
-        android:title="Settings"
-        android:icon="@drawable/ic_settings"/>
+<!--    <item android:id="@+id/nav_settings"-->
+<!--        android:title="Settings"-->
+<!--        android:icon="@drawable/ic_settings"/>-->
 </menu>

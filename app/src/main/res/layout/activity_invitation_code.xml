@@ -93,7 +93,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:tint="@color/main" />
+        app:tint="@color/main"
+        android:tooltipText="Invitation codes can be sent by physiotherapists registered with the PhysioHub system."/>
 
 
 </RelativeLayout>

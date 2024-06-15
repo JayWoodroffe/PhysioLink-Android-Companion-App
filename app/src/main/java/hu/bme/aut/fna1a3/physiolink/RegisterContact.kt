@@ -38,14 +38,19 @@ class RegisterContact : AppCompatActivity() {
         }
 
         binding.imBack.setOnClickListener {
-
+            startActivity(Intent(this, InvitationCode::class.java))
         }
 
     }
 
     private fun checkValues()
     {
-        if (validName() &&validEmail() && validNumber() && validDOB())
+        val isNameValid = validName()
+        val isEmailValid = validEmail()
+        val isNumberValid = validNumber()
+        val isDOBValid = validDOB()
+
+        if( isNameValid && isEmailValid && isNumberValid && isDOBValid)
         {
             addPatientToDb()
         }
@@ -123,7 +128,7 @@ class RegisterContact : AppCompatActivity() {
             binding.etNumber.error =null
             true
         } else {
-            binding.etNumber.error = "Invalid Number"
+            binding.etNumber.error = "Invalid number"
             false
         }
     }
@@ -131,6 +136,14 @@ class RegisterContact : AppCompatActivity() {
     private fun validEmail(): Boolean{
         email = binding.etEmail.text.toString().trim()
         val emailRegex = Regex("^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,})+\$")
+        if(!emailRegex.matches(email))
+        {
+            binding.etEmail.error = "Incorrect email format"
+        }
+        else
+        {
+            binding.etEmail.error = null
+        }
         return emailRegex.matches(email)
     }
 

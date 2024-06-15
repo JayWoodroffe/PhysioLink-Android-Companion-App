@@ -25,6 +25,9 @@ class RegisterPassword : AppCompatActivity() {
                         View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
                 )
 
+        binding.imBack.setOnClickListener{
+            startActivity(Intent(this, RegisterContact::class.java))
+        }
         binding.btnFinish.setOnClickListener{
             var p1 = binding.etPassword1.text.toString()
             var p2 = binding.etPassword2.text.toString()

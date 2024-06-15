@@ -25,6 +25,10 @@ class InvitationCode : AppCompatActivity() {
             startActivity(Intent(this, Login::class.java))
         }
 
+//        binding.ivHint.setOnClickListener {
+//
+//        }
+
         binding.btnProceed.setOnClickListener {
             var code = binding.etInvitationCode.text.toString().trim()
             AuthServices.checkInvitation(code){isValid, doctorID ->

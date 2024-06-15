@@ -115,16 +115,16 @@ class Exercises : AppCompatActivity(), ExerciseAdapterListener {
                 true
             }
             R.id.nav_chat ->{
-                //TODO chat activity
+                startActivity(Intent(this, Chat::class.java))
                 true
             }
             R.id.nav_exercises ->{
                 true
             }
-            R.id.nav_settings ->{
-                //TODO settings
-                true
-            }
+//            R.id.nav_settings ->{
+//                //TODO settings
+//                true
+//            }
             else -> false
         }
     }
