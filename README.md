@@ -10,7 +10,6 @@ PhysioLink is a companion Android application (used in companion to PhysioHub) d
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Documentation](#documentation)
-- [License](#license)
 
 ## Features
 
